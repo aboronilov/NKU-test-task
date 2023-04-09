@@ -7,15 +7,22 @@
 ```git clone https://github.com/aboronilov/NKU-test-task```
 
 ```cd .\server```
+
 ```npm install```
+
 Создать файл .env и в него поместить сроку:
+
 ```BROKER_URL="mqtt://test.mosquitto.org"```
+
 ```node index.js```
 Если в консоли вывелось сообщение ```Connected successfully```, значит сервер запущен
 
 ```cd .\client```
+
 ```npm install```
+
 ```npm run dev```
+
 В консоли выведется сообщение, перейти по предложенной ссылке
 
 Если копировать ссылку в несколько вкладок, то значение ползунка остается одинаковым для всех вкладок.
